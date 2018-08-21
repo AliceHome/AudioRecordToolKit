@@ -10,11 +10,17 @@ import AVFoundation
 
 public class HTAudioRecordTool: NSObject {
     
-    var audioRecorder: AVAudioRecorder!
+   
     var audioPlayer: AVAudioPlayer!
     
+    //Audio
+    var audioRecorder: AVAudioRecorder!
     let audioSession = AVAudioSession.sharedInstance()
     var isAllowed:Bool = false
+    
+    // Timer
+    var count = 0
+    let timer: DispatchSourceTimer = DispatchSource.makeTimerSource(flags: [], queue: DispatchQueue.main)
     
     let recordSettings = [AVSampleRateKey : NSNumber(value: Float(44100.0)),//声音采样率
         AVFormatIDKey : NSNumber(value: Int32(kAudioFormatMPEG4AAC)),//编码格式
@@ -25,6 +31,8 @@ public class HTAudioRecordTool: NSObject {
         super.init()
         checkPermission()
         createAudioRecorder()
+        createTimer()
+        timer.suspend()
     }
     //MARK: audio init
     func createAudioRecorder() {
@@ -84,6 +92,7 @@ public class HTAudioRecordTool: NSObject {
             do {
                 try audioSession.setActive(true)
                 audioRecorder.record()
+                fireTimer()
             }catch let error {
                 print(error)
             }
@@ -96,10 +105,36 @@ public class HTAudioRecordTool: NSObject {
             audioRecorder.stop()
             do {
                 try audioSession.setActive(false)
+                stopTimer()
             }catch let error {
                 print(error)
             }
         }
+    }
+    
+    //MARK: Timer
+    func createTimer() {
+        timer.schedule(wallDeadline: .now(), repeating: 1.0)
+        timer.setEventHandler {
+            print("timer")
+            self.count = self.count + 1
+            print(self.count)
+        }
+        timer.resume()
+    }
+    
+    func fireTimer() {
+        count = 0
+        self.timer.resume()
+    }
+    
+    func pauseTimer() {
+        self.timer.suspend()
+    }
+    
+    func stopTimer() {
+        self.timer.suspend()
+        count = 0
     }
     
     //暂停录制
@@ -108,6 +143,7 @@ public class HTAudioRecordTool: NSObject {
             audioRecorder.pause()
         }
     }
+    
     //恢复录制
     func resumeRecoder() {
         if !audioPlayer.isPlaying {
