@@ -20,9 +20,35 @@ it, simply add the following line to your Podfile:
 pod 'AudioRecordToolKit'
 ```
 
+## Use
+* 实例化
+```
+ let audioTool = HTAudioRecordTool()
+```
+
+* 开始录音
+```
+audioTool.startRecord()
+```
+
+* 停止录音
+```
+audioTool.stopRecord()
+```
+
+* 开始播放
+```
+audioTool.startPlay()
+```
+
+* 停止播放
+```
+audioTool.stopPlay()
+
+```
 ## Author
 
-Rey-superlrp, Huidragonaijy@gmail.com
+Flash, Huidragonaijy@gmail.com
 
 ## 注意
 
