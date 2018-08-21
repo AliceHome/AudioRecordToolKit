@@ -11,7 +11,6 @@
 		48E7801D0CA9C6DCE46193C31D4162B3 /* HTAudioRecordTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FD7381EC267BD1DCDB10EFDB4B33 /* HTAudioRecordTool.swift */; };
 		5C524505292F1DDA174DC56D4B9193AF /* AudioRecordToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAA80BAB6A39212C4DF27A88EDFD52A /* AudioRecordToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74F44968950C94C7F48428E346BE9996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9A4868CF3267A786D92D4D6ADBDB28E5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E42E7E2BA5C77480930065F8D097CE /* ReplaceMe.swift */; };
 		B6ACD123C431C94F634D42CCF60B56F0 /* Pods-AudioRecordToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFFBD7BAC48A84D88D5F7AAC2102EB8 /* Pods-AudioRecordToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB55F4F1F35ACAEA2C680FAE5483E71B /* Pods-AudioRecordToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0336B9FDD6294382054B26B79698075 /* Pods-AudioRecordToolKit_Example-dummy.m */; };
 		EC41D281E26F130483AABC6D0F7E99CA /* AudioRecordToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA27E079A17481D5C32AC09108F084A /* AudioRecordToolKit-dummy.m */; };
@@ -29,25 +28,24 @@
 
 /* Begin PBXFileReference section */
 		004E4E39603D50D9A138499F9A9BB8FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02AE0952990DEFB29878DE2A69483F7B /* AudioRecordToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AudioRecordToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02AE0952990DEFB29878DE2A69483F7B /* AudioRecordToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AudioRecordToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0616DB772A95372B7A48FC74E081B74B /* Pods-AudioRecordToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioRecordToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1032DA382655D507C515B11BC061D6DE /* Pods-AudioRecordToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioRecordToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12E49E6E7696E81CB0FE06EA4D799694 /* AudioRecordToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AudioRecordToolKit.framework; path = AudioRecordToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E49E6E7696E81CB0FE06EA4D799694 /* AudioRecordToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AudioRecordToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAA80BAB6A39212C4DF27A88EDFD52A /* AudioRecordToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioRecordToolKit-umbrella.h"; sourceTree = "<group>"; };
-		34DC596603653C6B03DDB5F0C08BAAED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		34DC596603653C6B03DDB5F0C08BAAED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		401E461E37439316446A9BB2CEE4970E /* AudioRecordToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioRecordToolKit.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A7EF4D08999276B8D4FEB4F0F5BB203 /* Pods_AudioRecordToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioRecordToolKit_Example.framework; path = "Pods-AudioRecordToolKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7EF4D08999276B8D4FEB4F0F5BB203 /* Pods_AudioRecordToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioRecordToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFFBD7BAC48A84D88D5F7AAC2102EB8 /* Pods-AudioRecordToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioRecordToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		6E55D7F3A6445104AA0DC80E3F234223 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E55D7F3A6445104AA0DC80E3F234223 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6E9A97CC4AB8AF9DD6A81B435381BBB5 /* Pods-AudioRecordToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioRecordToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73A8CAC2FBD7C97FAA92CE88D08D83B8 /* Pods-AudioRecordToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioRecordToolKit_Example.modulemap"; sourceTree = "<group>"; };
 		7D41FD7381EC267BD1DCDB10EFDB4B33 /* HTAudioRecordTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTAudioRecordTool.swift; path = AudioRecordToolKit/Classes/HTAudioRecordTool.swift; sourceTree = "<group>"; };
 		7F3A8CEEEB6E2CA0B6F6804828E4CF90 /* AudioRecordToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioRecordToolKit-prefix.pch"; sourceTree = "<group>"; };
 		86C6ACBE1BF553D5FAA623C74C38123C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E6F979D232531ED459F43B776F38CDC /* Pods-AudioRecordToolKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioRecordToolKit_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2E42E7E2BA5C77480930065F8D097CE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AudioRecordToolKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9CD90326CF11AE196B3B693BD9AA64B /* Pods-AudioRecordToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioRecordToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BBA27E079A17481D5C32AC09108F084A /* AudioRecordToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AudioRecordToolKit-dummy.m"; sourceTree = "<group>"; };
 		D0336B9FDD6294382054B26B79698075 /* Pods-AudioRecordToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioRecordToolKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				7D41FD7381EC267BD1DCDB10EFDB4B33 /* HTAudioRecordTool.swift */,
-				A2E42E7E2BA5C77480930065F8D097CE /* ReplaceMe.swift */,
 				8F775156CE735492D139FF4836D9FCAC /* Pod */,
 				08D3E5D96699728ECEEF80B5298C3FB4 /* Support Files */,
 			);
@@ -280,7 +277,6 @@
 			files = (
 				EC41D281E26F130483AABC6D0F7E99CA /* AudioRecordToolKit-dummy.m in Sources */,
 				48E7801D0CA9C6DCE46193C31D4162B3 /* HTAudioRecordTool.swift in Sources */,
-				9A4868CF3267A786D92D4D6ADBDB28E5 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

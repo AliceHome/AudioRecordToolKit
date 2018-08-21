@@ -50,11 +50,26 @@ public class HTAudioRecordTool: NSObject {
     
     //MARK: 播放相关
     public func startPlay() {
-        
+        if !audioRecorder.isRecording {
+            do {
+                let url:URL? = audioRecorder.url
+                if let url = url {
+                    try audioPlayer = AVAudioPlayer(contentsOf: url)
+                    audioPlayer.delegate = self
+                    audioPlayer.play()
+                }
+            }catch let error {
+                print(error)
+            }
+        }
     }
     
     public func stopPlay() {
-        
+        if let audioPlayer = audioPlayer, audioPlayer.isPlaying {
+            if !audioRecorder.isRecording {
+                audioPlayer.pause()
+            }
+        }
     }
     
     //MARK: 录音相关
