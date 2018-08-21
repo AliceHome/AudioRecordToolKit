@@ -1,0 +1,22 @@
+{
+  "name": "AudioRecordToolKit",
+  "version": "0.1.0",
+  "summary": "A short description of AudioRecordToolKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rey-superlrp/AudioRecordToolKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rey-superlrp": "Huidragonaijy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Rey-superlrp/AudioRecordToolKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AudioRecordToolKit/Classes/**/*"
+}

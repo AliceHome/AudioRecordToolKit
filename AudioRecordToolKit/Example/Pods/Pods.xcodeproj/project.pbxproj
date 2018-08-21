@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4086EC051C8992E62B43B486A4AA0571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		48E7801D0CA9C6DCE46193C31D4162B3 /* HTAudioRecordTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FD7381EC267BD1DCDB10EFDB4B33 /* HTAudioRecordTool.swift */; };
+		5C524505292F1DDA174DC56D4B9193AF /* AudioRecordToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAA80BAB6A39212C4DF27A88EDFD52A /* AudioRecordToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F44968950C94C7F48428E346BE9996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9A4868CF3267A786D92D4D6ADBDB28E5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E42E7E2BA5C77480930065F8D097CE /* ReplaceMe.swift */; };
+		B6ACD123C431C94F634D42CCF60B56F0 /* Pods-AudioRecordToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFFBD7BAC48A84D88D5F7AAC2102EB8 /* Pods-AudioRecordToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB55F4F1F35ACAEA2C680FAE5483E71B /* Pods-AudioRecordToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0336B9FDD6294382054B26B79698075 /* Pods-AudioRecordToolKit_Example-dummy.m */; };
+		EC41D281E26F130483AABC6D0F7E99CA /* AudioRecordToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA27E079A17481D5C32AC09108F084A /* AudioRecordToolKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8792AD118139DD75B58DD9AC4D40EB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD4719BD2310E5989505431FB52E8F4;
+			remoteInfo = AudioRecordToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004E4E39603D50D9A138499F9A9BB8FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AE0952990DEFB29878DE2A69483F7B /* AudioRecordToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AudioRecordToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0616DB772A95372B7A48FC74E081B74B /* Pods-AudioRecordToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioRecordToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1032DA382655D507C515B11BC061D6DE /* Pods-AudioRecordToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioRecordToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12E49E6E7696E81CB0FE06EA4D799694 /* AudioRecordToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AudioRecordToolKit.framework; path = AudioRecordToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAA80BAB6A39212C4DF27A88EDFD52A /* AudioRecordToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioRecordToolKit-umbrella.h"; sourceTree = "<group>"; };
+		34DC596603653C6B03DDB5F0C08BAAED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		401E461E37439316446A9BB2CEE4970E /* AudioRecordToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioRecordToolKit.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A7EF4D08999276B8D4FEB4F0F5BB203 /* Pods_AudioRecordToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioRecordToolKit_Example.framework; path = "Pods-AudioRecordToolKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFFBD7BAC48A84D88D5F7AAC2102EB8 /* Pods-AudioRecordToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioRecordToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E55D7F3A6445104AA0DC80E3F234223 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E9A97CC4AB8AF9DD6A81B435381BBB5 /* Pods-AudioRecordToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioRecordToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73A8CAC2FBD7C97FAA92CE88D08D83B8 /* Pods-AudioRecordToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioRecordToolKit_Example.modulemap"; sourceTree = "<group>"; };
+		7D41FD7381EC267BD1DCDB10EFDB4B33 /* HTAudioRecordTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTAudioRecordTool.swift; path = AudioRecordToolKit/Classes/HTAudioRecordTool.swift; sourceTree = "<group>"; };
+		7F3A8CEEEB6E2CA0B6F6804828E4CF90 /* AudioRecordToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioRecordToolKit-prefix.pch"; sourceTree = "<group>"; };
+		86C6ACBE1BF553D5FAA623C74C38123C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6F979D232531ED459F43B776F38CDC /* Pods-AudioRecordToolKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioRecordToolKit_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2E42E7E2BA5C77480930065F8D097CE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AudioRecordToolKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B9CD90326CF11AE196B3B693BD9AA64B /* Pods-AudioRecordToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioRecordToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BBA27E079A17481D5C32AC09108F084A /* AudioRecordToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AudioRecordToolKit-dummy.m"; sourceTree = "<group>"; };
+		D0336B9FDD6294382054B26B79698075 /* Pods-AudioRecordToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioRecordToolKit_Example-dummy.m"; sourceTree = "<group>"; };
+		EFA0389FFC250F43A8BC780E231F1110 /* Pods-AudioRecordToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioRecordToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F17D7488642DE5D58F7D31706E7CEA /* AudioRecordToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AudioRecordToolKit.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988A6281E7ABE3C1E7530FD8F28C5202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4086EC051C8992E62B43B486A4AA0571 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50D9C35C17AD6CE070FD05ADA594EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F44968950C94C7F48428E346BE9996 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D3E5D96699728ECEEF80B5298C3FB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0F17D7488642DE5D58F7D31706E7CEA /* AudioRecordToolKit.modulemap */,
+				401E461E37439316446A9BB2CEE4970E /* AudioRecordToolKit.xcconfig */,
+				BBA27E079A17481D5C32AC09108F084A /* AudioRecordToolKit-dummy.m */,
+				7F3A8CEEEB6E2CA0B6F6804828E4CF90 /* AudioRecordToolKit-prefix.pch */,
+				2DAA80BAB6A39212C4DF27A88EDFD52A /* AudioRecordToolKit-umbrella.h */,
+				004E4E39603D50D9A138499F9A9BB8FE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AudioRecordToolKit";
+			sourceTree = "<group>";
+		};
+		35EDEC96455289CCCEE8ECF5D3595B7E /* Pods-AudioRecordToolKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				86C6ACBE1BF553D5FAA623C74C38123C /* Info.plist */,
+				73A8CAC2FBD7C97FAA92CE88D08D83B8 /* Pods-AudioRecordToolKit_Example.modulemap */,
+				1032DA382655D507C515B11BC061D6DE /* Pods-AudioRecordToolKit_Example-acknowledgements.markdown */,
+				6E9A97CC4AB8AF9DD6A81B435381BBB5 /* Pods-AudioRecordToolKit_Example-acknowledgements.plist */,
+				D0336B9FDD6294382054B26B79698075 /* Pods-AudioRecordToolKit_Example-dummy.m */,
+				B9CD90326CF11AE196B3B693BD9AA64B /* Pods-AudioRecordToolKit_Example-frameworks.sh */,
+				8E6F979D232531ED459F43B776F38CDC /* Pods-AudioRecordToolKit_Example-resources.sh */,
+				6BFFBD7BAC48A84D88D5F7AAC2102EB8 /* Pods-AudioRecordToolKit_Example-umbrella.h */,
+				EFA0389FFC250F43A8BC780E231F1110 /* Pods-AudioRecordToolKit_Example.debug.xcconfig */,
+				0616DB772A95372B7A48FC74E081B74B /* Pods-AudioRecordToolKit_Example.release.xcconfig */,
+			);
+			name = "Pods-AudioRecordToolKit_Example";
+			path = "Target Support Files/Pods-AudioRecordToolKit_Example";
+			sourceTree = "<group>";
+		};
+		44790010DAD8FC58F063204CEE98FE71 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35EDEC96455289CCCEE8ECF5D3595B7E /* Pods-AudioRecordToolKit_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BDB43F24EE1B39A6985E93D32736D37 /* AudioRecordToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D41FD7381EC267BD1DCDB10EFDB4B33 /* HTAudioRecordTool.swift */,
+				A2E42E7E2BA5C77480930065F8D097CE /* ReplaceMe.swift */,
+				8F775156CE735492D139FF4836D9FCAC /* Pod */,
+				08D3E5D96699728ECEEF80B5298C3FB4 /* Support Files */,
+			);
+			name = AudioRecordToolKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8857F1AB28D8B1CC1B8DF84702EA182C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FAFFA02B6182D4B20A5470FD117AE780 /* Products */,
+				44790010DAD8FC58F063204CEE98FE71 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8857F1AB28D8B1CC1B8DF84702EA182C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BDB43F24EE1B39A6985E93D32736D37 /* AudioRecordToolKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8F775156CE735492D139FF4836D9FCAC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02AE0952990DEFB29878DE2A69483F7B /* AudioRecordToolKit.podspec */,
+				34DC596603653C6B03DDB5F0C08BAAED /* LICENSE */,
+				6E55D7F3A6445104AA0DC80E3F234223 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FAFFA02B6182D4B20A5470FD117AE780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E49E6E7696E81CB0FE06EA4D799694 /* AudioRecordToolKit.framework */,
+				6A7EF4D08999276B8D4FEB4F0F5BB203 /* Pods_AudioRecordToolKit_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D131EE62DFD1B026983B066112B4700 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ACD123C431C94F634D42CCF60B56F0 /* Pods-AudioRecordToolKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECD2D245E51A61A6B46B4A1B6426A06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C524505292F1DDA174DC56D4B9193AF /* AudioRecordToolKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AD4719BD2310E5989505431FB52E8F4 /* AudioRecordToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EBCE0CDE7E6BF260F9A1EB45EF1390 /* Build configuration list for PBXNativeTarget "AudioRecordToolKit" */;
+			buildPhases = (
+				DDBD78B70FE5755032F4D3B11966DF76 /* Sources */,
+				B50D9C35C17AD6CE070FD05ADA594EEF /* Frameworks */,
+				CECD2D245E51A61A6B46B4A1B6426A06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioRecordToolKit;
+			productName = AudioRecordToolKit;
+			productReference = 12E49E6E7696E81CB0FE06EA4D799694 /* AudioRecordToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D159E6F5905EC0FD2C8F28B0268C2146 /* Pods-AudioRecordToolKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8861B20A433FFE58099EEA0CDB1EAC /* Build configuration list for PBXNativeTarget "Pods-AudioRecordToolKit_Example" */;
+			buildPhases = (
+				61B1D32EB4C0E8B96737599114112F93 /* Sources */,
+				988A6281E7ABE3C1E7530FD8F28C5202 /* Frameworks */,
+				4D131EE62DFD1B026983B066112B4700 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B8A1E9F445404347E9FE0161CF4499 /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioRecordToolKit_Example";
+			productName = "Pods-AudioRecordToolKit_Example";
+			productReference = 6A7EF4D08999276B8D4FEB4F0F5BB203 /* Pods_AudioRecordToolKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FAFFA02B6182D4B20A5470FD117AE780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD4719BD2310E5989505431FB52E8F4 /* AudioRecordToolKit */,
+				D159E6F5905EC0FD2C8F28B0268C2146 /* Pods-AudioRecordToolKit_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B1D32EB4C0E8B96737599114112F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB55F4F1F35ACAEA2C680FAE5483E71B /* Pods-AudioRecordToolKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBD78B70FE5755032F4D3B11966DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41D281E26F130483AABC6D0F7E99CA /* AudioRecordToolKit-dummy.m in Sources */,
+				48E7801D0CA9C6DCE46193C31D4162B3 /* HTAudioRecordTool.swift in Sources */,
+				9A4868CF3267A786D92D4D6ADBDB28E5 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B8A1E9F445404347E9FE0161CF4499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioRecordToolKit;
+			target = 4AD4719BD2310E5989505431FB52E8F4 /* AudioRecordToolKit */;
+			targetProxy = 8792AD118139DD75B58DD9AC4D40EB91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35CFDB53D79661B0F63EC5C59ABEE9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA0389FFC250F43A8BC780E231F1110 /* Pods-AudioRecordToolKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioRecordToolKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioRecordToolKit_Example/Pods-AudioRecordToolKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		450992FB20216F9AE17444C7EA8DADF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401E461E37439316446A9BB2CEE4970E /* AudioRecordToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AudioRecordToolKit/AudioRecordToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioRecordToolKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AudioRecordToolKit/AudioRecordToolKit.modulemap";
+				PRODUCT_MODULE_NAME = AudioRecordToolKit;
+				PRODUCT_NAME = AudioRecordToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F5AB1754F2FBBDD8447F6C4C77D3F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0616DB772A95372B7A48FC74E081B74B /* Pods-AudioRecordToolKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioRecordToolKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioRecordToolKit_Example/Pods-AudioRecordToolKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66941D49107D68063AFC08D1ABCB8B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401E461E37439316446A9BB2CEE4970E /* AudioRecordToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AudioRecordToolKit/AudioRecordToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioRecordToolKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AudioRecordToolKit/AudioRecordToolKit.modulemap";
+				PRODUCT_MODULE_NAME = AudioRecordToolKit;
+				PRODUCT_NAME = AudioRecordToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8861B20A433FFE58099EEA0CDB1EAC /* Build configuration list for PBXNativeTarget "Pods-AudioRecordToolKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CFDB53D79661B0F63EC5C59ABEE9FC /* Debug */,
+				5F5AB1754F2FBBDD8447F6C4C77D3F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EBCE0CDE7E6BF260F9A1EB45EF1390 /* Build configuration list for PBXNativeTarget "AudioRecordToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450992FB20216F9AE17444C7EA8DADF5 /* Debug */,
+				66941D49107D68063AFC08D1ABCB8B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

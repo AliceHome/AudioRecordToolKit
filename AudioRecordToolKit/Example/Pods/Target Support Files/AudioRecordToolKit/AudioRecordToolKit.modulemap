@@ -1,0 +1,6 @@
+framework module AudioRecordToolKit {
+  umbrella header "AudioRecordToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

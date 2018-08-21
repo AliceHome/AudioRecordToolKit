@@ -1,0 +1,6 @@
+framework module Pods_AudioRecordToolKit_Example {
+  umbrella header "Pods-AudioRecordToolKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

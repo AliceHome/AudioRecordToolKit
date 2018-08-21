@@ -1,0 +1,16 @@
+PODS:
+  - AudioRecordToolKit (0.1.0)
+
+DEPENDENCIES:
+  - AudioRecordToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  AudioRecordToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AudioRecordToolKit: 8b5c50daa629397829bae44e998e796d9753d5f8
+
+PODFILE CHECKSUM: 2969bb51904f23f646e50c8c3203302023ea114e
+
+COCOAPODS: 1.5.3
